@@ -1,0 +1,761 @@
+{
+    "response": {
+        "result": {
+            "code": "0",
+            "description": "Успешное выполнение",
+            "execution_time": "5.1054"
+        },
+        "session_id": "89cf1072e8a97409da9811cddfb67059",
+        "buses": [
+            {
+                "departure_name": "Київ",
+                "departure_address": "Автостанція-5 \"Дачна\" (міська зупинка перед в'їздом на автостанцію\") проспект Перемоги; будинок 142",
+                "departure_date": "2019-06-10",
+                "departure_time": "21:42",
+                "departure_timestamp": 1560195720,
+                "arrival_name": "Львів",
+                "arrival_address": "Автовокзал \"Північний\" вулиця Богдана Хмельницького; будинок 225",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "10:15",
+                "arrival_timestamp": 1560240900,
+                "travel_time": 45180,
+                "bus_name": "БАЗ-А079.23",
+                "bus_number": "10707/161 Київ - Львів",
+                "route_name": "Київ-Львів",
+                "id": "fb13c85b3a50e44f628310fb0e686432",
+                "free_places": 2,
+                "free_place_numbers": [],
+                "price": 382.34,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "\"Володимир-Волинське АТП-10707\" ПрАТ",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 933.06,
+                    "UAH": 382.34,
+                    "EUR": 12.72,
+                    "USD": 14.32,
+                    "MDL": 257.11,
+                    "KZT": 5488.5,
+                    "BYN": 30.01,
+                    "AZN": 24.37,
+                    "TRY": 82.44,
+                    "AMD": 6766.24,
+                    "GEL": 38.91,
+                    "AED": 52.59
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ",
+                "departure_address": "Автовокзал \"Центральний\" метро Деміївська; проспект Науки; будинок 1/2",
+                "departure_date": "2019-06-10",
+                "departure_time": "21:00",
+                "departure_timestamp": 1560193200,
+                "arrival_name": "Львів",
+                "arrival_address": "Автовокзал \"Північний\" вулиця Богдана Хмельницького; будинок 225",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "10:15",
+                "arrival_timestamp": 1560240900,
+                "travel_time": 47700,
+                "bus_name": "БАЗ-А079.23",
+                "bus_number": "10707/161 Київ - Львів",
+                "route_name": "Київ-Львів",
+                "id": "f629b508cfb4a361704e0a82777361b0",
+                "free_places": 2,
+                "free_place_numbers": [],
+                "price": 394.61,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "\"Володимир-Волинське АТП-10707\" ПрАТ",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 963.01,
+                    "UAH": 394.61,
+                    "EUR": 13.13,
+                    "USD": 14.78,
+                    "MDL": 265.36,
+                    "KZT": 5664.64,
+                    "BYN": 30.97,
+                    "AZN": 25.16,
+                    "TRY": 85.09,
+                    "AMD": 6983.38,
+                    "GEL": 40.16,
+                    "AED": 54.28
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ: киев ас \"киев\"",
+                "departure_address": "вул. С.Петлюри 32, платформа 23 ( при вході в ЕКО-МАРКЕТ )",
+                "departure_date": "2019-06-10",
+                "departure_time": "16:30",
+                "departure_timestamp": 1560177000,
+                "arrival_name": "Львів: львів",
+                "arrival_address": "залізничний вокзал",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "00:30",
+                "arrival_timestamp": 1560205800,
+                "travel_time": 28800,
+                "bus_name": "NeoplanN216H",
+                "bus_number": "31",
+                "route_name": "12322 КИЇВ -УЖГОРОД",
+                "id": "d9cf1af2dbc5dcf7c1056d7ed79dc595",
+                "free_places": 13,
+                "free_place_numbers": [],
+                "price": 463.74,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "ПАВЛЮК В.",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1131.71,
+                    "UAH": 463.74,
+                    "EUR": 15.43,
+                    "USD": 17.37,
+                    "MDL": 311.85,
+                    "KZT": 6657,
+                    "BYN": 36.4,
+                    "AZN": 29.56,
+                    "TRY": 100,
+                    "AMD": 8206.77,
+                    "GEL": 47.19,
+                    "AED": 63.79
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ",
+                "departure_address": "Зупинка \"Метро Житомирська\" проспект Перемоги",
+                "departure_date": "2019-06-10",
+                "departure_time": "23:30",
+                "departure_timestamp": 1560202200,
+                "arrival_name": "Львів",
+                "arrival_address": "Зупинка \"Піцерія Наполетана\" (біля залізничного вокзалу) вулиця Чернівецька; будинок 21",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "07:30",
+                "arrival_timestamp": 1560231000,
+                "travel_time": 28800,
+                "bus_name": "Mercedes",
+                "bus_number": "16145/2300 Київ - Львів",
+                "route_name": "Київ-Львів",
+                "id": "d89017d8c6625f40c49d2ed4e2501e1a",
+                "free_places": 8,
+                "free_place_numbers": [],
+                "price": 473.69,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "\"АТП-16145\" ТВД",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1156,
+                    "UAH": 473.69,
+                    "EUR": 15.76,
+                    "USD": 17.74,
+                    "MDL": 318.54,
+                    "KZT": 6799.83,
+                    "BYN": 37.18,
+                    "AZN": 30.2,
+                    "TRY": 102.14,
+                    "AMD": 8382.86,
+                    "GEL": 48.21,
+                    "AED": 65.16
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ",
+                "departure_address": "Зупинка \"Центральний залізничний вокзал\" (біля МакДональдс) Вокзальна площа; будинок 2",
+                "departure_date": "2019-06-10",
+                "departure_time": "23:00",
+                "departure_timestamp": 1560200400,
+                "arrival_name": "Львів",
+                "arrival_address": "Зупинка \"Піцерія Наполетана\" (біля залізничного вокзалу) вулиця Чернівецька; будинок 21",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "07:30",
+                "arrival_timestamp": 1560231000,
+                "travel_time": 30600,
+                "bus_name": "Mercedes",
+                "bus_number": "16145/2300 Київ - Львів",
+                "route_name": "Київ-Львів",
+                "id": "a5e8a72a13da180dd9bd69708605c2d8",
+                "free_places": 8,
+                "free_place_numbers": [],
+                "price": 473.69,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "\"АТП-16145\" ТВД",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1156,
+                    "UAH": 473.69,
+                    "EUR": 15.76,
+                    "USD": 17.74,
+                    "MDL": 318.54,
+                    "KZT": 6799.83,
+                    "BYN": 37.18,
+                    "AZN": 30.2,
+                    "TRY": 102.14,
+                    "AMD": 8382.86,
+                    "GEL": 48.21,
+                    "AED": 65.16
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ",
+                "departure_address": "Автовокзал \"Центральний\" метро Деміївська; проспект Науки; будинок 1/2",
+                "departure_date": "2019-06-10",
+                "departure_time": "14:00",
+                "departure_timestamp": 1560168000,
+                "arrival_name": "Львів",
+                "arrival_address": "Автовокзал \"Центральний\" вулиця Стрийська; будинок 109",
+                "arrival_date": "2019-06-10",
+                "arrival_time": "22:00",
+                "arrival_timestamp": 1560196800,
+                "travel_time": 28800,
+                "bus_name": null,
+                "bus_number": "3, Kyiv-Lviv",
+                "route_name": "Київ-Львів",
+                "id": "90c4caaa2460e132b992ca65263b386d",
+                "free_places": 31,
+                "free_place_numbers": [],
+                "price": 502.35,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "Gunsel TOV",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1225.94,
+                    "UAH": 502.35,
+                    "EUR": 16.72,
+                    "USD": 18.81,
+                    "MDL": 337.81,
+                    "KZT": 7211.25,
+                    "BYN": 39.43,
+                    "AZN": 32.02,
+                    "TRY": 108.32,
+                    "AMD": 8890.05,
+                    "GEL": 51.12,
+                    "AED": 69.1
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Киев",
+                "departure_address": "Київ, пр-т Науки, 1/2",
+                "departure_date": "2019-06-10",
+                "departure_time": "14:00",
+                "departure_timestamp": 1560168000,
+                "arrival_name": "Львов",
+                "arrival_address": "Львів, вул. Стрийська, 109 (по вул. Вернадського)",
+                "arrival_date": "2019-06-10",
+                "arrival_time": "22:00",
+                "arrival_timestamp": 1560196800,
+                "travel_time": 28800,
+                "bus_name": "Neoplan Tourliner (46)",
+                "bus_number": "8957",
+                "route_name": "3 Київ - Прага (Флоренц)",
+                "id": "251dac3b32f207582e711fe7ef0b6259",
+                "free_places": 29,
+                "free_place_numbers": [
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99",
+                    "99"
+                ],
+                "price": 515,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "ТОВ Гюнсел",
+                "has_place_numbers": true,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1256.81,
+                    "UAH": 515,
+                    "EUR": 17.14,
+                    "USD": 19.29,
+                    "MDL": 346.32,
+                    "KZT": 7392.84,
+                    "BYN": 40.42,
+                    "AZN": 32.83,
+                    "TRY": 111.05,
+                    "AMD": 9113.92,
+                    "GEL": 52.41,
+                    "AED": 70.84
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ",
+                "departure_address": "Автостанція Київ (Центральний залізничний вокзал) метро Вокзальна; вулиця Симона Петлюри; будинок 32",
+                "departure_date": "2019-06-10",
+                "departure_time": "18:00",
+                "departure_timestamp": 1560182400,
+                "arrival_name": "Львів",
+                "arrival_address": "Залізничний вокзал \"Центральний\" Двірцева площа; будинок 1 ",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "02:00",
+                "arrival_timestamp": 1560211200,
+                "travel_time": 28800,
+                "bus_name": "Mercedes",
+                "bus_number": "PLV/1800 Київ - Львів",
+                "route_name": "Київ-Львів",
+                "id": "87ab555c081f24d181e9eb73c40e64f2",
+                "free_places": 18,
+                "free_place_numbers": [],
+                "price": 581.4,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "\"Павлюк Людмила Василівна\" ФОП",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1418.85,
+                    "UAH": 581.4,
+                    "EUR": 19.35,
+                    "USD": 21.78,
+                    "MDL": 390.97,
+                    "KZT": 8346.01,
+                    "BYN": 45.63,
+                    "AZN": 37.06,
+                    "TRY": 125.37,
+                    "AMD": 10288.99,
+                    "GEL": 59.17,
+                    "AED": 79.98
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ",
+                "departure_address": "Автостанція Київ (Центральний залізничний вокзал) метро Вокзальна; вулиця Симона Петлюри; будинок 32",
+                "departure_date": "2019-06-10",
+                "departure_time": "21:00",
+                "departure_timestamp": 1560193200,
+                "arrival_name": "Львів",
+                "arrival_address": "Залізничний вокзал \"Центральний\" Двірцева площа; будинок 1 ",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "05:00",
+                "arrival_timestamp": 1560222000,
+                "travel_time": 28800,
+                "bus_name": "Mercedes",
+                "bus_number": "PLV/2100 Київ - Львів",
+                "route_name": "Київ-Львів",
+                "id": "8293a9656a5e7f00b354ce7a6b23ebeb",
+                "free_places": 18,
+                "free_place_numbers": [],
+                "price": 581.4,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "\"Павлюк Людмила Василівна\" ФОП",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1418.85,
+                    "UAH": 581.4,
+                    "EUR": 19.35,
+                    "USD": 21.78,
+                    "MDL": 390.97,
+                    "KZT": 8346.01,
+                    "BYN": 45.63,
+                    "AZN": 37.06,
+                    "TRY": 125.37,
+                    "AMD": 10288.99,
+                    "GEL": 59.17,
+                    "AED": 79.98
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Київ",
+                "departure_address": "Автостанція Київ (Центральний залізничний вокзал) метро Вокзальна; вулиця Симона Петлюри; будинок 32",
+                "departure_date": "2019-06-10",
+                "departure_time": "21:00",
+                "departure_timestamp": 1560193200,
+                "arrival_name": "Львів",
+                "arrival_address": "Залізничний вокзал \"Центральний\" Двірцева площа; будинок 1 ",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "05:00",
+                "arrival_timestamp": 1560222000,
+                "travel_time": 28800,
+                "bus_name": "Volkswagen",
+                "bus_number": "ПМИ002 Київ - Львів",
+                "route_name": "Київ-Львів",
+                "id": "946197672eb6c0007ff02a4d85e9e597",
+                "free_places": 15,
+                "free_place_numbers": [],
+                "price": 581.4,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "\"Павлюк М.І.\" ФОП",
+                "has_place_numbers": false,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1418.85,
+                    "UAH": 581.4,
+                    "EUR": 19.35,
+                    "USD": 21.78,
+                    "MDL": 390.97,
+                    "KZT": 8346.01,
+                    "BYN": 45.63,
+                    "AZN": 37.06,
+                    "TRY": 125.37,
+                    "AMD": 10288.99,
+                    "GEL": 59.17,
+                    "AED": 79.98
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Киев",
+                "departure_address": "Ж.Д Вокзал, пл. Вокзальная 2, возле Макдональдса",
+                "departure_date": "2019-06-10",
+                "departure_time": "23:00",
+                "departure_timestamp": 1560200400,
+                "arrival_name": "Львов",
+                "arrival_address": "Возле пиццерии \"Наполетана\", новая парковка, ул. Черновицкая 21 (ЖД Вокзал)",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "06:30",
+                "arrival_timestamp": 1560227400,
+                "travel_time": 27000,
+                "bus_name": "",
+                "bus_number": "2227920",
+                "route_name": "Киев - Львов (23:00)",
+                "id": "2b23c24287f6675825d68d3ff2e3d9f5",
+                "free_places": 4,
+                "free_place_numbers": [
+                    "81",
+                    "82",
+                    "83",
+                    "84"
+                ],
+                "price": 625,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "Павлюк Л.И.",
+                "has_place_numbers": true,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1525.25,
+                    "UAH": 625,
+                    "EUR": 20.8,
+                    "USD": 23.41,
+                    "MDL": 420.29,
+                    "KZT": 8971.89,
+                    "BYN": 49.05,
+                    "AZN": 39.84,
+                    "TRY": 134.77,
+                    "AMD": 11060.58,
+                    "GEL": 63.6,
+                    "AED": 85.97
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            },
+            {
+                "departure_name": "Киев",
+                "departure_address": "Автостанция, \"Киев\" возле Екомаркет, пл.23",
+                "departure_date": "2019-06-10",
+                "departure_time": "21:00",
+                "departure_timestamp": 1560193200,
+                "arrival_name": "Львов",
+                "arrival_address": "Автостанция №8, пл.Дворцова 1",
+                "arrival_date": "2019-06-11",
+                "arrival_time": "05:00",
+                "arrival_timestamp": 1560222000,
+                "travel_time": 28800,
+                "bus_name": "",
+                "bus_number": "1655384",
+                "route_name": "Киев - Львов (21:00)",
+                "id": "ed631e6d8666b37677d2691110ec288c",
+                "free_places": 5,
+                "free_place_numbers": [
+                    "80",
+                    "81",
+                    "82",
+                    "83",
+                    "84"
+                ],
+                "price": 625,
+                "currency": "UAH",
+                "registration_in_bus": true,
+                "carrier": "Павлюк Л.И.",
+                "has_place_numbers": true,
+                "need_birth": false,
+                "need_doc": false,
+                "need_nationality": false,
+                "need_patronymic": false,
+                "need_gender": false,
+                "need_latin_names": false,
+                "amounts": {
+                    "RUR": 1525.25,
+                    "UAH": 625,
+                    "EUR": 20.8,
+                    "USD": 23.41,
+                    "MDL": 420.29,
+                    "KZT": 8971.89,
+                    "BYN": 49.05,
+                    "AZN": 39.84,
+                    "TRY": 134.77,
+                    "AMD": 11060.58,
+                    "GEL": 63.6,
+                    "AED": 85.97
+                },
+                "discounts": [],
+                "documents": [
+                    {
+                        "id": 1,
+                        "title": "Паспорт"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Водительское удостоверение"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Свидетельство о рождении"
+                    }
+                ]
+            }
+        ]
+    }
+}

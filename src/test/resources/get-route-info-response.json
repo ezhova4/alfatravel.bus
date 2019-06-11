@@ -1,0 +1,75 @@
+{
+    "response": {
+        "result": {
+            "code": "0",
+            "description": "Successful completion",
+            "execution_time": "0.3979"
+        },
+        "session_id": "544ee1d05827be7a3a168c1e3f2f66bb",
+        "bus": {
+            "departure_name": "Киев",
+            "departure_address": "Автостанция \"Киев\", ул.С.Петлюры 32, (Ж/Д Вокзал)",
+            "departure_date": "2019-08-30",
+            "departure_time": "08:00",
+            "departure_timestamp": 1567144800,
+            "arrival_name": "Гомель",
+            "arrival_address": "Автовокзал, ул.Курчатова 1",
+            "arrival_date": "2019-08-30",
+            "arrival_time": "15:05",
+            "arrival_timestamp": 1567170300,
+            "travel_time": 25500,
+            "bus_name": "",
+            "bus_number": "2134689",
+            "route_name": "Киев - Гомель - Речица",
+            "id": "af3cc2aeb45b61469fcfe382c3d8bb74",
+            "free_places": 5,
+            "free_place_numbers": [
+                "81",
+                "82",
+                "83",
+                "84",
+                "85"
+            ],
+            "price": 320,
+            "currency": "UAH",
+            "registration_in_bus": true,
+            "carrier": "Линии Полесья ",
+            "has_place_numbers": true,
+            "need_birth": false,
+            "need_doc": false,
+            "need_nationality": false,
+            "need_patronymic": false,
+            "need_gender": false,
+            "need_latin_names": false,
+            "amounts": {
+                "RUR": 771.93,
+                "UAH": 320,
+                "EUR": 10.54,
+                "USD": 11.81,
+                "MDL": 211.41,
+                "KZT": 4507.49,
+                "BYN": 24.75,
+                "AZN": 20.16,
+                "TRY": 69.08,
+                "AMD": 5578.12,
+                "GEL": 32.56,
+                "AED": 43.37
+            },
+            "discounts": [],
+            "documents": [
+                {
+                    "id": 1,
+                    "title": "Паспорт"
+                },
+                {
+                    "id": 2,
+                    "title": "Водительское удостоверение"
+                },
+                {
+                    "id": 3,
+                    "title": "Свидетельство о рождении"
+                }
+            ]
+        }
+    }
+}

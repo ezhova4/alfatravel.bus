@@ -1,0 +1,50 @@
+{
+    "response": {
+        "result": {
+            "code": "0",
+            "description": "Успешное выполнение",
+            "execution_time": "0.0511"
+        },
+        "session_id": "7a2567a59b504f97a13f8ce6ee3c83c4",
+        "passengers": [
+            {
+                "ticket_price": 295.59,
+                "currency": "UAH",
+                "hash": "8c3b79f795db1fffd46dfb9e1ab6c6ec",
+                "amounts": {
+                    "RUR": 713.04,
+                    "UAH": 295.59,
+                    "EUR": 9.74,
+                    "USD": 10.91,
+                    "MDL": 195.28,
+                    "KZT": 4163.65,
+                    "BYN": 22.86,
+                    "AZN": 18.62,
+                    "TRY": 63.81,
+                    "AMD": 5152.61,
+                    "GEL": 30.07,
+                    "AED": 40.06
+                }
+            },
+            {
+                "ticket_price": 295.59,
+                "currency": "UAH",
+                "hash": "565e1dc26d58e55d5cd772d968467a6a",
+                "amounts": {
+                    "RUR": 713.04,
+                    "UAH": 295.59,
+                    "EUR": 9.74,
+                    "USD": 10.91,
+                    "MDL": 195.28,
+                    "KZT": 4163.65,
+                    "BYN": 22.86,
+                    "AZN": 18.62,
+                    "TRY": 63.81,
+                    "AMD": 5152.61,
+                    "GEL": 30.07,
+                    "AED": 40.06
+                }
+            }
+        ]
+    }
+}

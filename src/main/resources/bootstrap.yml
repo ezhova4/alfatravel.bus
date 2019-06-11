@@ -1,0 +1,55 @@
+server:
+  port: 8890
+
+provider:
+  TTN:
+    enable: true
+    json: .json?
+    host: https://v2.api.tickets.ua/bus2
+    header:
+      key: X-Key
+      lang: X-Lang
+    ep:
+      search-stations: /stations/search.json?
+      search-routes: /search.json?
+      search-price: /search/price.json?
+      booking: /bookings.json?
+      booking-info: /bookings/
+      booking-pdf: pdf/
+      booking-cancel: cancel/
+      route: /search/show.json?
+    pattern:
+      date: dd-MM-yyyy
+      dateTime: dd.MM.yyyy HH:mm
+
+msg:
+  controller:
+    logPost: "#POST Param is - {}"
+  repository:
+    logUri: " log in repository, created uri is - {} "
+
+
+tags:
+  sessionId:  session_id
+  extendedToken: extended_token
+  type: type
+  limit: limit
+  query: query
+  from: from
+  to: to
+  date: date
+  id: id
+  token: token
+  key: key
+  lang: lang
+  birthday: birthday
+  citizenship: citizenship
+  discountId: discountId
+  documentNumber: document_number
+  documentType: document_type
+  gender: gender
+  middleName: midlename
+  name: name
+  placeNumber: place_number
+  surname: surname
+  passenger: passenger

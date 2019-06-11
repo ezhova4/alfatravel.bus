@@ -1,0 +1,25 @@
+{
+    "response": {
+        "result": {
+            "code": "0",
+            "description": "Успешное выполнение",
+            "execution_time": "0.0665"
+        },
+        "stations": [
+            {
+                "id": 4730,
+                "country_code": "UA",
+                "name_ru": "Киев",
+                "name_uk": "Київ",
+                "name_en": "Kiev"
+            },
+            {
+                "id": 10452,
+                "country_code": "UA",
+                "name_ru": "Киевка (Херсонская обл.)",
+                "name_uk": "Київка (Херсонська обл.)",
+                "name_en": "Kyivka (Kherson oblast)"
+            }
+        ]
+    }
+}

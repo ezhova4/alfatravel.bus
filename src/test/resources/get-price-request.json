@@ -1,0 +1,31 @@
+{
+	"id" : 0,
+	"extended_token" : "api_test",
+	"session_id" : "7a2567a59b504f97a13f8ce6ee3c83c4",
+	"passengers" : [
+		{
+			"birthday" : "01-01-1990",
+			"citizenship" : "RU",
+			"discount_id" : 1,
+			"document_number" : "123",
+			"document_type" : "pas",
+			"gender" : "male",
+			"midlename" : "Petrov",
+			"name" : "Anton",
+			"place_number" : 15,
+			"surname" : "Petrovich"
+		},
+		{
+			"birthday" : "02-03-1994",
+			"citizenship" : "BY",
+			"discount_id" : 2,
+			"document_number" : "1234",
+			"document_type" : "pass",
+			"gender" : "female",
+			"midlename" : "Petrova",
+			"name" : "Antonka",
+			"place_number" : 15,
+			"surname" : "Petrovich"
+		}
+	]
+}
