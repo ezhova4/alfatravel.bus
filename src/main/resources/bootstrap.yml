@@ -18,9 +18,6 @@ provider:
       booking-pdf: pdf/
       booking-cancel: cancel/
       route: /search/show.json?
-    pattern:
-      date: dd-MM-yyyy
-      dateTime: dd.MM.yyyy HH:mm
 
 msg:
   controller:
@@ -28,6 +25,9 @@ msg:
   repository:
     logUri: " log in repository, created uri is - {} "
 
+pattern:
+  date: dd-MM-yyyy
+  dateTime: dd.MM.yyyy HH:mm
 
 tags:
   sessionId:  session_id

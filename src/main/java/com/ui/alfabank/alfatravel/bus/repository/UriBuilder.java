@@ -48,7 +48,7 @@ public class UriBuilder {
     @Value("${provider.TTN.ep.booking-cancel}")
     private String bookingCancelEP;
 
-    @Value("${provider.TTN.pattern.date}")
+    @Value("${pattern.date}")
     private String datePattern;
 
     public URI createFindStationsURI(SearchStationRequest searchStationRequest, String key, String lang) {
