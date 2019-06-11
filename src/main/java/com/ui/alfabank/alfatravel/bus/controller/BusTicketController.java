@@ -16,6 +16,7 @@ import javax.validation.Valid;
 @Slf4j
 @CrossOrigin
 @RestController
+@RequestMapping("/bus")
 public class BusTicketController {
 
     @Value("${msg.controller.logPost}")
