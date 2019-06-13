@@ -14,8 +14,5 @@ public enum  ResponseStatusCode {
     /**
      *  Запрос от клиента(фронт) не валидный
      */
-    BAD_REQUEST_VALIDATION,
-
-
-
+    BAD_REQUEST_VALIDATION
 }
