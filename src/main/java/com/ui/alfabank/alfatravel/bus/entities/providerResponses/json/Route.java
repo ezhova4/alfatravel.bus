@@ -15,13 +15,14 @@ import java.util.List;
 @NoArgsConstructor
 public class Route {
     private final String timePattern = "HH:mm";
+    private final String datePattern = "yyyy-MM-dd";
 
     @JsonProperty("departure_name")
     private String departureName;
     @JsonProperty("departure_address")
     private String departureAddress;
     @JsonProperty("departure_date")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = datePattern)
     private LocalDate departureDate;
     @JsonProperty("departure_time")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = timePattern)
@@ -33,7 +34,7 @@ public class Route {
     @JsonProperty("arrival_address")
     private String arrivalAddress;
     @JsonProperty("arrival_date")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = datePattern)
     private LocalDate arrivalDate;
     @JsonProperty("arrival_time")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = timePattern)

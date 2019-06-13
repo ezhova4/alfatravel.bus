@@ -24,34 +24,34 @@ public class UriBuilder {
     @Value("${provider.TTN.json}")
     private String json;
 
-    @Value("${provider.TTN.ep.search-stations}")
+    @Value("${provider.TTN.ep.searchStations}")
     private String searchStationsEP;
 
-    @Value("${provider.TTN.ep.search-routes}")
+    @Value("${provider.TTN.ep.searchRoutes}")
     private String searchRoutesEP;
 
     @Value("${provider.TTN.ep.route}")
     private String routeEP;
 
-    @Value("${provider.TTN.ep.search-price}")
+    @Value("${provider.TTN.ep.searchPrice}")
     private String searchPriceEP;
 
     @Value("${provider.TTN.ep.booking}")
     private String bookingEP;
 
-    @Value("${provider.TTN.ep.booking-info}")
+    @Value("${provider.TTN.ep.bookingInfo}")
     private String bookingInfoEP;
 
-    @Value("${provider.TTN.ep.booking-pdf}")
+    @Value("${provider.TTN.ep.bookingPdf}")
     private String bookingPdfEP;
 
-    @Value("${provider.TTN.ep.booking-cancel}")
+    @Value("${provider.TTN.ep.bookingCancel}")
     private String bookingCancelEP;
 
     @Value("${pattern.date}")
     private String datePattern;
 
-    public URI createFindStationsURI(SearchStationRequest searchStationRequest, String key, String lang) {
+    URI createFindStationsURI(SearchStationRequest searchStationRequest, String key, String lang) {
         final String hostAndEP = host + searchStationsEP;
         return getUriComponentsBuilderKeyLang(key, lang, hostAndEP)
                 .queryParam(tags.getType(), searchStationRequest.getType())
@@ -62,7 +62,7 @@ public class UriBuilder {
                 .toUri();
     }
 
-    public URI createFindRoutesURI(SearchRoutesRequest searchRoutesRequest, String key, String lang) {
+    URI createFindRoutesURI(SearchRoutesRequest searchRoutesRequest, String key, String lang) {
         final String hostAndEP = host + searchRoutesEP;
         return getUriComponentsBuilderKeyLang(key, lang, hostAndEP)
                 .queryParam(tags.getFrom(), searchRoutesRequest.getFrom())
@@ -74,7 +74,7 @@ public class UriBuilder {
                 .toUri();
     }
 
-    public URI createGetPriceURI(PriceRequest priceRequest, String key, String lang) {
+    URI createGetPriceURI(PriceRequest priceRequest, String key, String lang) {
         final String hostAndEP = host + searchPriceEP;
         final UriComponentsBuilder builder = getRouteCommonFields(key, lang, hostAndEP, priceRequest.getId(), priceRequest.getExtendedToken(), priceRequest.getSessionId());
 
@@ -84,7 +84,7 @@ public class UriBuilder {
                 .toUri();
     }
 
-    public URI createBookingURI(CreateBookingRequest createBookingRequest, String key, String lang) {
+    URI createBookingURI(CreateBookingRequest createBookingRequest, String key, String lang) {
         final String hostAndEP = host + bookingEP;
         final UriComponentsBuilder builder = getUriComponentsBuilderKeyLang(key, lang, hostAndEP)
                 .queryParam(tags.getId(), createBookingRequest.getId())
@@ -98,7 +98,7 @@ public class UriBuilder {
                 .toUri();
     }
 
-    public URI createRouteURI(RouteRequest routeRequest, String key, String lang) {
+    URI createRouteURI(RouteRequest routeRequest, String key, String lang) {
         final String hostAndEP = host + routeEP;
         return getRouteCommonFields(key, lang, hostAndEP, routeRequest.getId(), routeRequest.getExtendedToken(), routeRequest.getSessionId())
                 .build()
@@ -106,22 +106,22 @@ public class UriBuilder {
                 .toUri();
     }
 
-    public URI createGetBookingsURI(GetBookingsRequest getBookingsRequest, String key, String lang) {
+    URI createGetBookingsURI(GetBookingsRequest getBookingsRequest, String key, String lang) {
         final String hostAndEP = host + bookingEP;
         return getBookingCommonFields(key, lang, hostAndEP, getBookingsRequest.getExtendedToken(), getBookingsRequest.getToken());
     }
 
-    public URI createGetBookingURI(GetBookingRequest getBookingRequest, String key, String lang) {
+    URI createGetBookingURI(GetBookingRequest getBookingRequest, String key, String lang) {
         final String hostAndEP = host + bookingInfoEP + getBookingRequest.getReservationId() + json;
         return getBookingCommonFields(key, lang, hostAndEP, getBookingRequest.getExtendedToken(), getBookingRequest.getToken());
     }
 
-    public URI createGetBookingPdfVoucherURI(GetBookingPdfVoucherRequest getBookingPdfVoucherRequest, String key, String lang) {
+    URI createGetBookingPdfVoucherURI(GetBookingPdfVoucherRequest getBookingPdfVoucherRequest, String key, String lang) {
         final String hostAndEP = host + bookingInfoEP + bookingPdfEP + getBookingPdfVoucherRequest.getReservationId() + json;
         return getBookingCommonFields(key, lang, hostAndEP, getBookingPdfVoucherRequest.getExtendedToken(), getBookingPdfVoucherRequest.getToken());
     }
 
-    public URI createCancelBookingURI(CancelBookingRequest cancelBookingRequest, String key, String lang) {
+    URI createCancelBookingURI(CancelBookingRequest cancelBookingRequest, String key, String lang) {
         final String hostAndEP = host + bookingInfoEP + bookingCancelEP + cancelBookingRequest.getReservationId() + json;
         return getBookingCommonFields(key, lang, hostAndEP, cancelBookingRequest.getExtendedToken(), cancelBookingRequest.getToken());
     }

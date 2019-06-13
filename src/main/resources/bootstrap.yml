@@ -10,20 +10,32 @@ provider:
       key: X-Key
       lang: X-Lang
     ep:
-      search-stations: /stations/search.json?
-      search-routes: /search.json?
-      search-price: /search/price.json?
+      searchStations: /stations/search.json?
+      searchRoutes: /search.json?
+      searchPrice: /search/price.json?
       booking: /bookings.json?
-      booking-info: /bookings/
-      booking-pdf: pdf/
-      booking-cancel: cancel/
+      bookingInfo: /bookings/
+      bookingPdf: pdf/
+      bookingCancel: cancel/
       route: /search/show.json?
 
 msg:
   controller:
-    logPost: "#POST Param is - {}"
+    logPostRequest: "#POST, request params - "
+    logPostResponse: "#POST, response - "
+    logAPIResponseClientException: "#HANDLER, APIResponseClientException - "
+    logMethodArgumentNotValidException: "#HANDLER, MethodArgumentNotValidException - "
+    logAPIResponseException: "#HANDLER, APIResponseException - "
+    logHttpMessageNotReadableException: "#HANDLER, HttpMessageNotReadableException - "
+  service:
+    logService: "#SERVICE - "
+    checkResultForErrors: "check result for errors"
+    clientError: "client error"
   repository:
-    logUri: " log in repository, created uri is - {} "
+    logUri: " #REPOSITORY, created uri - "
+    logResponse: " #REPOSITORY, response - "
+  exceptions:
+    noSuchResult: "result not found"
 
 pattern:
   date: dd-MM-yyyy

@@ -1,10 +1,14 @@
 package com.ui.alfabank.alfatravel.bus.entities.exceptions;
 
+import lombok.Data;
+import org.springframework.http.HttpStatus;
+
+@Data
 public class APIResponseException extends Exception {
-    public APIResponseException() {
+    private HttpStatus httpStatus;
+
+    public APIResponseException(HttpStatus httpStatus) {
+        this.httpStatus = httpStatus;
     }
 
-    public APIResponseException(String message) {
-        super(message);
-    }
 }
