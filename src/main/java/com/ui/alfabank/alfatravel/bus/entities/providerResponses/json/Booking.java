@@ -1,6 +1,7 @@
 package com.ui.alfabank.alfatravel.bus.entities.providerResponses.json;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Booking {
-
+    @JsonIgnore
     private final String dateTimePattern = "dd.MM.yyyy HH:mm";
 
     @JsonProperty(value = "reservation_id")
