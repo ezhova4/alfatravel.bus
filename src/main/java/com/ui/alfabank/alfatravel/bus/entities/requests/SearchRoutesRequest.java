@@ -15,9 +15,9 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class SearchRoutesRequest implements Request {
     @NotNull
-    private long from;
+    private Integer from;
     @NotNull
-    private long to;
+    private Integer to;
     @NotNull
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     private LocalDate date;

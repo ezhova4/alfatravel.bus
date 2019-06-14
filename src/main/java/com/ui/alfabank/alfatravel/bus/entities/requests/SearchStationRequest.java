@@ -14,9 +14,9 @@ import javax.validation.constraints.NotNull;
 @Builder
 public class SearchStationRequest implements Request{
     @NotNull
-    private int type;
+    private Integer type;
     @NotNull
-    private int limit;
+    private Integer limit;
     @NotBlank
     private String query;
 }
