@@ -16,7 +16,7 @@ import java.util.List;
 @NoArgsConstructor
 public class CreateBookingRequest extends BookingRequest implements Request {
     @NotNull
-    private Integer id;
+    private String id;
     @NotBlank
     @JsonProperty(value = "session_id")
     private String sessionId;
